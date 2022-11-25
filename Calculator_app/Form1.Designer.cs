@@ -269,6 +269,7 @@
             // btn_delete
             // 
             this.btn_delete.BackColor = System.Drawing.Color.Brown;
+            this.btn_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_delete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_delete.Location = new System.Drawing.Point(14, 216);
@@ -347,7 +348,7 @@
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.txt_box);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
