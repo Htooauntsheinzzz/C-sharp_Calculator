@@ -153,7 +153,7 @@ namespace Calculator_app
             {
                 case 1:
                     ans = num + float.Parse(txt_box.Text);
-                    txt_box.Text = num + "-" + float.Parse(txt_box.Text) + "=" + ans.ToString();
+                    txt_box.Text = num + "+" + float.Parse(txt_box.Text) + "=" + ans.ToString();
                     break;
 
                 case 2:
@@ -162,11 +162,11 @@ namespace Calculator_app
                     break;
                 case 3:
                     ans=num * float.Parse(txt_box.Text);
-                    txt_box.Text = num + "-" + float.Parse(txt_box.Text) + "=" + ans.ToString();
+                    txt_box.Text = num + "x" + float.Parse(txt_box.Text) + "=" + ans.ToString();
                     break;
                 case 4:
                     ans=num / float.Parse(txt_box.Text);
-                    txt_box.Text = num + "-" + float.Parse(txt_box.Text) + "=" + ans.ToString();
+                    txt_box.Text = num + "÷" + float.Parse(txt_box.Text) + "=" + ans.ToString();
                     break;
                     case 5:
                     ans = num / 100;
